@@ -16,8 +16,8 @@ int is_printable(char c)
 
 /**
  * append_hexa_code - Append ascci in hexadecimal code to buffer
- * @buffer: Array of chars.
- * @i: Index at which to start appending.
+ * @buffer: Array of characters
+ * @i: Index at which to start appending
  * @ascii_code: ASSCI CODE.
  * Return: Always 3
  */
@@ -39,7 +39,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 /**
  * is_digit - Verifies if a char is a digit
- * @c: Char to be evaluated
+ * @c: Char to be evaluated.
  *
  * Return: 1 if c is a digit, 0 otherwise
  */
